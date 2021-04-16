@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EShop.Domain.Models
 {
-    class Supplier
+    class Supplier : Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
