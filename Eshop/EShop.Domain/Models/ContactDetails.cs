@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace EShop.Domain.Models
 {
-    public class Customer : Name
+    class ContactDetails : Customer
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public long Ssn { get; set; }
+        public string PhoneNumber { get; set; }
+        public string EmailAddress { get; set; }
+        public int CustomerIr { get; set; }
         public string PhotoUrl { get; set; }
-        internal ICollection<ContactDetails> ContactDetails { get; }
-
     }
 }

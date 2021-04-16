@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EShop.Domain.Models
 {
-    Public class Name
+    public class Name
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
