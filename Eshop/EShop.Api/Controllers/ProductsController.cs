@@ -27,5 +27,18 @@ namespace EShop.Api.Controllers
             return Ok(product);
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult GetAllProductsById(int id)
+        {
+            var product = new Product();
+
+            product.Id = id;
+            product.Name = "Ip Camera";
+            product.Price = 12.23f;
+
+            return Ok(product);
+        }
+
     }
 }
