@@ -9,6 +9,9 @@ namespace EShop.Api.Controllers
     [Route("/api/[controller]")]
     public class ProductsController : Controller
     {
+        public ProductsController()
+        {
 
+        }    
     }
 }
