@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EShop.Api.Controllers
 {
+    [Route("/api/[controller]")]
     public class ProductsController : Controller
     {
 
