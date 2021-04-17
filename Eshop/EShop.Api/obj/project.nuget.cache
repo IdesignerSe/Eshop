@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "iVDKwTGtb6OTbpwJEQfL26aWzH3a8sRptslY+gwH+FVlUAn0QKKk+vIvkSUHgT01WvAWD9SrAdKEUqbEy8zigg==",
-  "success": true,
+  "dgSpecHash": "jDQE/NYMkHMhEB2P52EO89ZRJlrNXR5QVVE8EiZ1eEIOCDAb8AR3+Pc6FRQjyjWZEHNMdsByFWyC7VkXmcHYmQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\elev\\Documents\\GitHub\\Eshop\\Eshop\\EShop.Api\\EShop.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elev\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
@@ -11,5 +11,15 @@
     "C:\\Users\\elev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\elev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project EShop.Domain is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Project EShop.Domain supports: net5.0-windows7.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "EShop.Domain",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

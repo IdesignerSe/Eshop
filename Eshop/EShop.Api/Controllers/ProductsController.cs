@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EShop.Domain.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,13 @@ namespace EShop.Api.Controllers
         public ProductsController()
         {
 
-        }    
+        }
+
+        [HttpGet]
+        public IActionResult GetAllProducts()
+        {
+            var product = new Product();
+        }
+
     }
 }
