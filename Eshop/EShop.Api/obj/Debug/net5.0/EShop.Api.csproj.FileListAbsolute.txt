@@ -27,3 +27,5 @@ C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\obj\Debug\net5.0\EShop.Api.
 C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\obj\Debug\net5.0\ref\EShop.Api.dll
 C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\obj\Debug\net5.0\EShop.Api.pdb
 C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\obj\Debug\net5.0\EShop.Api.genruntimeconfig.cache
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\bin\Debug\net5.0\EShop.Domain.dll
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Api\bin\Debug\net5.0\EShop.Domain.pdb

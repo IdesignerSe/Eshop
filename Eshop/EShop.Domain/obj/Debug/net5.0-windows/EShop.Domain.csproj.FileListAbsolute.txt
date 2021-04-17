@@ -1,0 +1,12 @@
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\bin\Debug\net5.0-windows\EShop.Domain.deps.json
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\bin\Debug\net5.0-windows\EShop.Domain.dll
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\bin\Debug\net5.0-windows\ref\EShop.Domain.dll
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\bin\Debug\net5.0-windows\EShop.Domain.pdb
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.csprojAssemblyReference.cache
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.AssemblyInfoInputs.cache
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.AssemblyInfo.cs
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.dll
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\ref\EShop.Domain.dll
+C:\Users\elev\Documents\GitHub\Eshop\Eshop\EShop.Domain\obj\Debug\net5.0-windows\EShop.Domain.pdb
