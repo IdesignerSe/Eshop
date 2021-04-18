@@ -1,30 +1,33 @@
 ﻿
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
+using EShop.Api.Services;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Mvc;
 using EShop.Domain.Models;
+using EShop.Api.Interfaces;
+
+
 
 namespace EShop.Api.Controllers
 {
     [Route("/api/[controller]")]
     public class ProductsController : Controller
     {
-        public ProductsController()
+        private readonly ISeeder _seeder;
+        private ProductsController (ISeeder seeder)
         {
-
+            _seeder = seeder;
         }
+
         [HttpGet]
         public IActionResult GetAllProducts()
         {
-            var product = new Product();
 
-            product.Id = 1;
-            product.Name = "Ip Camera";
-            product.Price = 12.23f;
-
-            return Ok(product);
+            return Ok(_seeder.GetAllProducts());
         }
 
         [HttpGet]
